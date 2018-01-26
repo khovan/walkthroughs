@@ -99,7 +99,46 @@
     will appear with the contents of the title. -->
 
 
-    <!-- MORE TO COME! :D -->
+    <h2>Links</h2>
+
+    <!-- Links never stand alone. They are usually part of some other
+    component of our web site, such as a paragraph, list, etc.
+
+    The <a> tag requires the href attribute (href stands for 'hypertext
+    reference'). We can link to:
+
+    1. An external web site.
+
+    2. A page within our web site.
+
+    3. A section within our web page.
+
+    The following two examples address Nos. 1 and 2. -->
+
+    <p>Sebastian the Ibis is the mascot of the <a href="http://miami.edu">University of Miami</a>.
+
+    <!-- When we link to an external web site - - a site other than our
+    own, we need to give it a 'fully qualified domain name'. This means
+    we have to indicate the protocol used (in this case 'http' or
+    'https' - - the 's' stands for secure), followed by the URL
+    ('uniform resource locator' - - or more easily described as a web
+    address).
+
+    We can't just write 'miami.edu' because the browser will not know
+    that address is a web site. It's the 'http(s)' which tells us the
+    address is a web site. -->
+
+    <p><a href="more-tags.html">More Tags</a></p>
+
+    <!-- If we only want to link to a page inside our own site, we just
+    have to indicate the file name (and the path to that file). In this
+    case, more-tags.html is in the same directory, so we can just use
+    the filename as the value.
+
+    We will have an in-depth lecture on paths to files, but for now,
+    keep all of your files in the same directory, reference the file
+    name in href (or 'src' - - which we will see later) and you will
+    have no problems! -->
 
   </body>
 </html>
